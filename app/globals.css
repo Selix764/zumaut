@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-espresso: #4B3221;
+  --color-cream: #F3EBE7;
+  --color-terracotta: #D99C82;
+  --color-olive: #8A8F4F;
+  --color-jet: #1A1A1A;
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-montserrat);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-espresso);
+  font-family: var(--font-montserrat), sans-serif;
+}
